@@ -1,0 +1,24 @@
+Healthcare Management System (HMS) Database
+-------------------------------------------
+
+Project Overview 
+----------------
+
+--> This project is a standalone, MySQL-only database solution for a Healthcare Management System (HMS). It is designed to manage the core data and business logic for a small to medium-sized medical clinic or hospital. The project's unique focus is on building a robust, self-contained database backend without a separate application layer, demonstrating a strong command of advanced SQL features for data integrity, automation, and security.
+
+--> The database schema, business logic, and initial data are fully defined in SQL scripts, making the project easy to set up, understand, and extend. It serves as a strong portfolio piece to showcase expertise in database design, data modeling, stored procedures, functions, triggers, and views.
+
+Key Features 
+------------
+
+--> Normalized Schema: A third-normal-form design across 15+ tables to efficiently manage patient demographics, appointments, medical records, billing, and inventory.
+
+--> Data Integrity: Enforces data consistency and validity using a combination of PRIMARY KEY, FOREIGN KEY, UNIQUE, and CHECK constraints.
+
+--> Automated Business Logic: Uses over 10 stored procedures and functions to handle complex operations like scheduling appointments, recording medical encounters, and processing payments.
+
+--> Trigger-Based Automation: Employs triggers to automatically manage critical tasks, such as updating medication stock levels and recalculating bill totals in real-time.
+
+--> Role-Based Views: Provides simplified, secure data access for different user roles (e.g., receptionists, doctors) through specialized views, abstracting complex joins and sensitive information.
+
+--> Auditing and Security: Includes a built-in AuditLog table managed by triggers to track all changes to critical data. User management and privilege scripts are included for a secure setup.
